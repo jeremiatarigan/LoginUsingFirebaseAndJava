@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_category"
+        android:enabled="true"
+        android:title="Kategori"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        />
+
+    <item
+        android:id="@+id/action_rangking"
+        android:enabled="true"
+        android:title="Rangking"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_star_black_24dp"/>
+
+</menu>
